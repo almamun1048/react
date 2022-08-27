@@ -1,0 +1,48 @@
+.layout{
+    display: grid;
+    grid-template-areas:
+    "h h h h h h h h h h h h"
+    "f f f f f f f f f f f f"
+    "c c c c c c c c c c c c"
+    ;
+}
+.heading{
+    grid-area: h;
+    font-size: 50px;
+    text-align: center;
+}
+form{
+    grid-area: f;
+    text-align: center;
+}
+form input{
+    width: 8rem;
+    margin: 5px;
+    padding: 5px;
+}
+.card-container{
+    grid-area: c;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: chocolate;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+    height: 15rem;
+    width: 20rem;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px grey;
+    text-align: center;
+}
+.btn{
+    padding: 10px 20px;
+    color: rgb(233, 216, 216);
+    font-weight: 600;
+    background-color: rgb(105, 46, 160);
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}

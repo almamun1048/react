@@ -1,0 +1,24 @@
+nav{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(3, 50, 79);
+    
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav-link{
+    background-color: rgb(38, 131, 188);
+    padding: 10px 5px;
+    color: #fff;
+    border: 2px solid gray;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.nav-link.active{
+    color: rgb(13, 243, 40);
+}
